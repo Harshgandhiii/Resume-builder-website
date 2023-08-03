@@ -1,0 +1,42 @@
+.bcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    padding-top: 0;
+    align-items: center;
+    
+}
+
+.bheading{
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.btoolbar{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.bcolors{
+    display: flex;
+    gap: 20px;
+    padding: 0 30px;
+}
+.bcolors .bcolor{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: #66CC66;
+}
+
+.bcolors .active{
+    border: 3px solid black;
+}
+.bmain{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    width: 100%;
+}

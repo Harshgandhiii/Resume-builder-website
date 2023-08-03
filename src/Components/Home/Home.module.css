@@ -1,0 +1,46 @@
+.gcontainer{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+}
+
+.gheader{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    background-color: rgb(224, 240, 227);
+    width: 100%;
+    height: 100vh;
+}
+
+.gleft{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gheading{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.gheading span{
+    background-clip: text;
+    background-image: linear-gradient(to right, #66CC66, #2d7b2d);
+    color: transparent;
+}
+.gleft .gsubheading{
+    font-weight: 500;
+    color: #323131;
+    font-size: 2rem;
+}
+.gright {
+    max-width: 45%;
+  }
+  
+  .gright img {
+    object-fit: contain;
+    width: 100%;
+  }
+  
